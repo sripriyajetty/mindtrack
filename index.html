@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/mood-tracker/public/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Mood Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          inter: ['Inter', 'system-ui', 'sans-serif'],
+          press: ['"Press Start 2P"', 'cursive'],
+        }
+      }
+    }
+  }
+</script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
